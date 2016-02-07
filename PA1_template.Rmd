@@ -5,7 +5,6 @@ output:
     keep_md: true
 ---
 
-
 ## Loading and preprocessing the data
 
 ```{r, echo=TRUE}
@@ -61,6 +60,7 @@ hist(sum_steps$total, main = "Total number of steps taken per day (NA replaced b
 
 mean(sum_steps$total)
 median(sum_steps$total)
+
 ```
 
 ## Are there differences in activity patterns between weekdays and weekends?
